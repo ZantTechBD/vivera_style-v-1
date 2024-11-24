@@ -255,10 +255,9 @@ const Collection = () => {
           <button
             onClick={goToPreviousPage}
             disabled={currentPage === 1}
-            className="px-4 py-2 bg-gray-200 rounded-l-full disabled:bg-gray-400"
+            className="px-4 py-2 bg-yellow-100 rounded-l-full disabled:bg-yellow-400"
           >
             <FaCircleChevronLeft />
-
           </button>
           <p className="px-4 py-2">
             Page {currentPage} of {totalPages}
@@ -266,7 +265,7 @@ const Collection = () => {
           <button
             onClick={goToNextPage}
             disabled={currentPage === totalPages}
-            className="px-4 py-2 bg-gray-200 rounded-r-full disabled:bg-gray-400"
+            className="px-4 py-2 bg-yellow-100 rounded-r-full disabled:bg-yellow-400"
           >
             <FaCircleChevronRight />
           </button>
