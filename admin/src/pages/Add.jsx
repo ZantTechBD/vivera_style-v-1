@@ -112,6 +112,10 @@ const Add = ({token}) => {
                   <option value="Topwear">Topwear</option>
                   <option value="Bottomwear">Bottomwear</option>
                   <option value="Winterwear">Winterwear</option>
+                  
+                  <option value="Leather">Leather</option>
+                  <option value="Accessories">Accessories</option>
+                  
               </select>
             </div>
 
